@@ -1,8 +1,97 @@
 body {
-  padding: 50px;
+  padding: 0;
+  margin: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #F7F8FD;
 }
 
-a {
-  color: #00B7FF;
+.navbar {
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #F0F1F3;
+  padding: 10px;
+}
+
+.navbar .navHeaber {
+  display: inline;
+  margin: 10px auto;
+}
+
+.navbar .navMenu {
+  display: inline;
+  float: right;
+  margin: 10px auto;
+}
+
+.navbar .navMenu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .navMenu ul li {
+  display: inline;
+  margin-right: 40px;
+}
+
+.navbar .navMenu ul li a{
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+}
+
+.navigator {
+  margin: 30px;
+}
+
+.navigator a {
+  text-decoration: none;
+  font-weight: bold;
+  color: gray;
+}
+
+.profileHeader {
+  background-color: white;
+  width: 90%;
+  height: 40vh;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.profileNavgator {
+  width: 90%;
+  margin: 40px auto;
+  border-bottom: 1px solid lightgray;
+}
+
+.profileNavgator ul {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+.profileNavgator ul li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 20px;
+  padding-bottom: 8px;
+}
+
+.profileNavgator ul li:nth-child(1) {
+  border-bottom: 3px solid lightblue;
+}
+
+.profileNavgator ul li a {
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+}
+
+.profileContent {
+  background-color: white;
+  width: 90%;
+  margin: 40px auto;
+  height: 100vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
